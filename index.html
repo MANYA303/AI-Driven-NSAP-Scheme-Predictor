@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>NSAP AI Scheme Predictor</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <canvas id="particles"></canvas>
+    <div class="container">
+
+        <div class="header">
+
+            <h1>🇮🇳 NSAP AI Scheme Predictor</h1>
+
+            <p>Smart Governance through Artificial Intelligence</p>
+
+            <span class="ibm-tag">
+                Powered by IBM watsonx
+            </span>
+
+        </div>
+
+        <input
+            type="number"
+            id="male"
+            placeholder="👨 Total Male Beneficiaries">
+
+        <input
+            type="number"
+            id="female"
+            placeholder="👩 Total Female Beneficiaries">
+
+        <input
+            type="number"
+            id="sc"
+            placeholder="🟠 Total SC Beneficiaries">
+
+        <input
+            type="number"
+            id="st"
+            placeholder="🟢 Total ST Beneficiaries">
+
+        <button onclick="predictScheme()">
+            ✨ Predict with Watson
+        </button>
+
+        <div id="result" class="result-box">
+            Waiting for prediction...
+        </div>
+
+        <footer>
+            Developed by <b>Manya Mishra</b><br>
+            B.Tech CSE (DS+AI)
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
