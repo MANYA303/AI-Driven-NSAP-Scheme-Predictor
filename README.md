@@ -92,13 +92,13 @@ NSAP_BOB_App
 
 ### 🖥️ Application Interface
 
-![Homepage](images/homepage.jpeg)
+![Homepage](images/homepage.png)
 
 ---
 
 ### 🔄 System Workflow
 
-![Workflow](images/workflow.jpeg)
+![Workflow](images/workflow.png)
 
 ---
 
